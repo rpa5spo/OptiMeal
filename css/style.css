@@ -1,3 +1,7 @@
+html, body {
+  font-size: 18px;
+  font-family: Rounded Mplus 1c;
+}
 .wrapper {
   min-height: 100%;
   width: 100%;
@@ -8,4 +12,46 @@
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+/* ================================================================================================ */
+
+.header {
+}
+.header__top {
+}
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-right: 126px;
+}
+.logo {
+}
+.header__nav {
+  margin-right: auto;
+}
+.header__nav-list {
+  display: flex;
+}
+.header__nav-item {
+  margin-right: 50px;
+}
+.header__nav-item:last-child {
+  margin-right: 0;
+}
+.header__nav-link {
+}
+.header__socials {
+}
+.header__socials-list {
+  display: flex;
+}
+.header__socials-item {
+}
+.header__socials-link {
+}
+.header__body {
 }
