@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Rounded Mplus 1c;
+  font-family: "Rounded Mplus 1c";
   font-weight: 800;
   font-style: normal;
   src: local("Rounded Mplus 1c"),
@@ -9,7 +9,7 @@
   font-display: swap;
 }
 @font-face {
-  font-family: Rounded Mplus 1c;
+  font-family: "Rounded Mplus 1c";
   font-weight: 400;
   font-style: normal;
   src: local("Rounded Mplus 1c"),
