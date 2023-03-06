@@ -14,7 +14,8 @@ html, body {
   padding: 0 15px;
   margin: 0 auto;
 }
-
+.button {
+  } 
 /* ================================================================================================ */
 .header {
   background: url("../images/decor/fruit-bg.svg") 0 0 /100% no-repeat;
@@ -35,7 +36,6 @@ html, body {
 .logo {}
 .header__nav {
   margin-right: 126px;
-  /* max-width: 478px; */
 }
 .header__nav-list {
   display: flex;
@@ -75,7 +75,6 @@ html, body {
   align-items: center;
   font-weight: 800;
   line-height: 26.73px;
-
 }
 .header__socials {
   margin-right: 376px;
@@ -90,6 +89,14 @@ html, body {
   margin-right: 0;
 }
 .header__socials-link {}
+
+.main__new {
+  background: url("../images/decor/2-bg.svg") 0 0 /100% no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: #FFFFFF;
+  margin-bottom: 140px;
+}
 
 /* ========================================================================= */
 
@@ -134,3 +141,28 @@ max-width: 470px;
 }
 /* ==================================== NEW ===================================== */
 
+.new {
+}
+.container {
+}
+.new__inner {
+}
+.new__top {
+  top: 50px;
+  left: 360px;
+  right: 360px;
+  margin-bottom: 12px;
+}
+.new__row {
+  display: flex;
+}
+.new__item {
+}
+.new__image-box {
+}
+.new__item-content {
+}
+.new__item-title {
+}
+.new__item-text {
+}
