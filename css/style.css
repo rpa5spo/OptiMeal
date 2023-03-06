@@ -15,7 +15,20 @@ html, body {
   margin: 0 auto;
 }
 .button {
-  } 
+  display: inline-block;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 35px 8px 32px 16px;
+  color: #FFFFFF;
+  border-radius: 30px 30px 30px 30px;
+  background: linear-gradient(99.41deg, #FFB1A4 -5.48%, #FF5F4E 79.15%);
+  box-shadow: inset 4px -5px 0px rgba(255, 204, 191, 0.68);
+  transition: .3s;
+}
+.button:hover {
+  transform: scale(1.05);
+}
 /* ================================================================================================ */
 .header {
   background: url("../images/decor/fruit-bg.svg") 0 0 /100% no-repeat;
@@ -66,8 +79,6 @@ html, body {
   white-space: nowrap;
   line-height: 26.73px;
   letter-spacing: 2px;
-  transition: all .3s;
-  padding: 0px 0px 0px 0px;
 }
 .header__nav-link:hover {
   display: flex;
@@ -99,70 +110,4 @@ html, body {
 }
 
 /* ========================================================================= */
-
-.header__main {
-  display: flex;
-  justify-content: space-between;
-}
-.header__content {
-  margin-top: 181px;
-  margin-right: 625px;
-  align-items: center; 
-}
-.header__title {
-font-weight: 800;
-font-size: 52px;
-line-height: 60px;
-max-width: 550px;
-margin-bottom: 13px;
-}
-.header__text {
-line-height: 27px;
-margin-left: 3px;
-padding-right: 25px;
-margin-bottom: 22px;
-text-align: left;
-max-width: 470px;
-}
-.header__content-btn {
-  overflow: hidden;
-  position: relative;
-}
-.header__content-btn span{
-  display: block;
-  position: absolute;
-  top: 8px;
-  right: 32px;
-  left: 35px;
-  bottom: 16px;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 36px;
-}
-/* ==================================== NEW ===================================== */
-
-.new {
-}
-.container {
-}
-.new__inner {
-}
-.new__top {
-  top: 50px;
-  left: 360px;
-  right: 360px;
-  margin-bottom: 12px;
-}
-.new__row {
-  display: flex;
-}
-.new__item {
-}
-.new__image-box {
-}
-.new__item-content {
-}
-.new__item-title {
-}
-.new__item-text {
-}
+.header__body {}
